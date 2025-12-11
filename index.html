@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falta 6 dias</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="happy-valentines">
+        <div class="valentines-day-card">
+            <div class="clouds"></div>
+            <div class="hearts">
+                <div class="heartOne">
+                    <div class="left-side"></div>
+                    <div class="right-side"></div>
+                </div>
+                <div class="heartTwo">
+                    <div class="left-side"></div>
+                    <div class="right-side"></div>
+                </div>
+                <div class="heartThree">
+                    <div class="left-side"></div>
+                    <div class="right-side"></div>
+                </div>
+                <div class="heartFour">
+                    <div class="left-side"></div>
+                    <div class="right-side"></div>
+                </div>
+                <div class="heartFive">
+                    <div class="left-side"></div>
+                    <div class="right-side"></div>
+                </div>
+            </div>
+            <div class="text" id="secretText"><span>Falta <strong>6 dias</strong> para aniversário do meu amooor!!</span></div>
+        </div>
+        <p class="hover">- passe o mouse (ou toque) -</p>
+    </div>
+
+    <script>
+        // 1. Encontra o elemento de texto
+        const textElement = document.getElementById('secretText');
+
+        // 2. Adiciona o ouvinte de evento 'click'
+        textElement.addEventListener('click', function() {
+            // .toggle() adiciona a classe se ela não existe, e remove se ela existe.
+            textElement.classList.toggle('active-touch');
+        });
+    </script>
+
+</body>
+</html>
