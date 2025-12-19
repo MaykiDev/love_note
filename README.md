@@ -5,7 +5,7 @@ Página desenvolvido com **HTML, CSS e JavaScript** para enviar para sua **Amada
 ---
 
 ## 📸 Preview
-<img width="500" height="7349" alt="Print Site" src="UtilFile/img/screencapture-ifctcontabilidade-br-2025-12-16-08_19_45.png" />
+<img width="500" height="7349" alt="Print Site" src="1.png" />
 
 
 ---
